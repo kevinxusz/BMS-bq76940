@@ -37,7 +37,8 @@ All testing and programming was done with the developed EvalBoard. For schematic
 ![alt tag](https://github.com/stahlstngel/BMS-bq76940/blob/master/Bilder/20150623_114454.jpg)
 ![alt tag](https://github.com/stahlstngel/BMS-bq76940/blob/master/Bilder/20150624_121117_cut_rot.jpg)
 
-For testing the given example run the Makefile (in /example): (boot the BQ76940 with 3.3V on TS1) (bootet if 3.3V on REGOUT/3V3_init)
+For testing the given example run the Makefile (in /Quellcode/Anwendungsbeispiel):
+(boot the BQ76940 with 3.3V on TS1) (bootet if 3.3V on REGOUT/3V3_init)
 
     make clean
     make all
