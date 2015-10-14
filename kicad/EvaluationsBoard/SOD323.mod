@@ -1,0 +1,37 @@
+PCBNEW-LibModule-V1  Mo 01 Jun 2015 14:37:01 CEST
+# encoding utf-8
+Units mm
+$INDEX
+SOD323
+$EndINDEX
+$MODULE SOD323
+Po 0 0 0 15 556C51E6 00000000 ~~
+Li SOD323
+Sc 0
+AR 
+Op 0 0 0
+T0 0.05 1.45 1 1 0 0.15 N V 21 N "SOD323"
+T1 0.15 -1.25 1 1 0 0.15 N V 21 N "D**"
+DS -0.55 -0.65 -0.55 0.65 0.15 21
+DS -0.85 -0.65 0.85 -0.65 0.15 21
+DS 0.85 -0.65 0.85 0.65 0.15 21
+DS 0.85 0.65 -0.85 0.65 0.15 21
+DS -0.85 0.65 -0.85 -0.65 0.15 21
+$PAD
+Sh "2" R 1.15 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "1" R 1.15 0.65 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.1 0
+.LocalClearance 0.2
+$EndPAD
+$EndMODULE SOD323
+$EndLIBRARY

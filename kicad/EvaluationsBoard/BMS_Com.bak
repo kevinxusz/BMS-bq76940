@@ -1,0 +1,116 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BMS_I²C_µC-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BMS_TI_BQ76940"
+Date "24 may 2015"
+Rev "v0.1"
+Comp "HTW Dresden"
+Comment1 "Fahrzeugtechnik"
+Comment2 "Maik Brenke"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_I²C P?
+U 1 1 5561FB4F
+P 5200 4950
+F 0 "P?" V 5400 5000 50  0000 C CNN
+F 1 "µC" V 5500 4950 50  0000 C CNN
+F 2 "~" H 5350 4900 60  0000 C CNN
+F 3 "~" H 5350 4900 60  0000 C CNN
+	1    5200 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_30X2 P?
+U 1 1 5561FB50
+P 2500 3800
+F 0 "P?" H 2500 5350 60  0000 C CNN
+F 1 "CONN_30X2" V 2500 3800 50  0000 C CNN
+F 2 "" H 2500 3800 60  0000 C CNN
+F 3 "" H 2500 3800 60  0000 C CNN
+	1    2500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS VSS?
+U 1 1 5561FB51
+P 2900 5050
+F 0 "VSS?" H 2900 5050 30  0001 C CNN
+F 1 "VSS" H 2900 4980 30  0000 C CNN
+F 2 "" H 2900 5050 60  0000 C CNN
+F 3 "" H 2900 5050 60  0000 C CNN
+	1    2900 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4950 2900 4950
+Wire Wire Line
+	2900 4850 4800 4850
+Wire Wire Line
+	2900 4550 4800 4550
+Wire Wire Line
+	4800 4550 4800 4750
+Wire Wire Line
+	2100 5250 2100 5350
+Wire Wire Line
+	2100 5350 4600 5350
+Wire Wire Line
+	4600 5350 4600 5050
+Wire Wire Line
+	4600 5050 4800 5050
+$Comp
+L VSS #PWR?
+U 1 1 5561FB52
+P 4800 5150
+F 0 "#PWR?" H 4800 5150 30  0001 C CNN
+F 1 "VSS" H 4800 5080 30  0000 C CNN
+F 2 "" H 4800 5150 60  0000 C CNN
+F 3 "" H 4800 5150 60  0000 C CNN
+	1    4800 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3950 2900 3950
+Wire Wire Line
+	2950 3650 2950 3950
+Wire Wire Line
+	2950 3850 2900 3850
+Wire Wire Line
+	2950 3650 2900 3650
+Connection ~ 2950 3850
+$EndSCHEMATC
