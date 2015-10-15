@@ -18,7 +18,7 @@ Protection:
 
 My System
 
-For the dokumentation see /Dokumentation/DA_HM_15.pdf where you can find my hole work (german). The important BMS part is shown in capter 5.
+For the dokumentation see /Dokumentation/DA_MB_15.pdf where you can find my hole work (german). The important BMS part is shown in capter 5.
 
 The realized system has the following specifications:
 
