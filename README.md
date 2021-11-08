@@ -31,7 +31,7 @@ The realized system has the following specifications:
 - 3x temp. sensors
 - switches current up to ~70 Ampere
 
-All testing and programming was done with the developed EvalBoard. For schematica and layouts see /kicad (http://kicad-pcb.org/).
+All testing and programming was done with the developed EvalBoard. For schematica and layouts see /kicad (http://kicad.org/).
 ![alt tag](https://github.com/stahlstngel/BMS-bq76940/blob/master/Bilder/Eval_Block.png)
 ![alt tag](https://github.com/stahlstngel/BMS-bq76940/blob/master/Bilder/EvalBoard.png)
 ![alt tag](https://github.com/stahlstngel/BMS-bq76940/blob/master/Bilder/20150623_114454.jpg)
